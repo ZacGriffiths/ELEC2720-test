@@ -10,7 +10,7 @@ int main (int argc, char *argv[])
 {
   int inI;
   printf ("Number of arguments passed = %d\n", argc);
-  for (inI = 0; inI < argc; inI = inI + 1)
+  for (inI = 0; inI <= argc; inI = inI + 1)
   {
     printf ("-> Argument number %d is %s\n",inI + 1, argv[inI]);
   }
